@@ -1,0 +1,120 @@
+@font-face {
+  font-family: 'plank';
+  src: url(./font/Octuple-max-demo.ttf);
+}
+
+@font-face {
+  font-family: 'boeotia';
+  src: url(./font/Boeotia.ttf);
+}
+
+
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.logo {
+  height: 110px;
+  position: relative;
+  left: 38%;
+  top: 20px;
+  margin-bottom:40px;
+}
+
+h1{
+  margin: 0;
+  padding: 0;
+  font-size: 150px;
+  position: relative;
+  top: 250px;
+  left: 400px;
+  font-family: 'plank';
+  color: white;
+}
+
+p {
+  color: white;
+  font-family: 'boeotia';
+  margin:0;
+  padding: 0;
+}
+
+.utama{
+  left: 650px;
+  font-size: 3rem;
+  position: relative;
+  top: 230px;
+}
+
+.kedua{
+  position: relative;
+  font-size: 2rem;
+  top: 250px;
+  left:780px;
+}
+
+.back-video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+
+.semua{
+  background-color: rgba(11, 114, 167, 0.5);
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .back-video {
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .back-video {
+    width: auto;
+    height: 100%;
+  }
+}
+
+
+@media (min-width:200px) and (max-width: 690px) {
+  .logo {
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    left: 185px;
+  }
+
+  h1{
+    font-size: 70px;
+    position: absolute;
+    left: 60px;
+    top: 410px;
+  }
+  .utama {
+    font-size: 30px;
+    position: relative;
+    left: 135px;
+    top: 490px;
+  }
+
+  .kedua {
+    font-size: 20px;
+    position: absolute;
+    left: 210px;
+    top: 525px;
+  }
+
+}
