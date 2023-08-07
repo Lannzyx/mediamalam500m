@@ -14,6 +14,7 @@ body {
   width: 100%;
   height: 100%;
   overflow-x: hidden;
+  padding: 0;
 }
 
 .logo {
@@ -88,6 +89,16 @@ p {
 
 
 @media (min-width:200px) and (max-width: 690px) {
+  
+  body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    padding: 0;
+  }
+  
+
   .logo {
     height: 100px;
     width: 300px;
@@ -115,20 +126,5 @@ p {
     top: 525px;
   }
 
-  @media (min-aspect-ratio: 16/9) {
-    .back-video {
-      width: 100%;
-      height: auto;
-    }
-  
-  }
-  
-  @media (max-aspect-ratio: 16/9) {
-    .back-video {
-      width: auto;
-      height: 100%;
-    }
-  }
-  
 
 }
