@@ -13,16 +13,14 @@ body {
   margin: 0;
   width: 100%;
   height: 100%;
-  padding: 0;
   overflow-x: hidden;
 }
 
 .logo {
   height: 110px;
   position: relative;
-  left: 34%;
+  left: 38%;
   top: 20px;
-  margin-bottom:40px;
 }
 
 h1{
@@ -31,7 +29,7 @@ h1{
   font-size: 150px;
   position: relative;
   top: 250px;
-  left: 370px;
+  left: 400px;
   font-family: 'plank';
   color: white;
 }
@@ -44,7 +42,7 @@ p {
 }
 
 .utama{
-  left: 615px;
+  left: 650px;
   font-size: 3rem;
   position: relative;
   top: 230px;
@@ -54,7 +52,7 @@ p {
   position: relative;
   font-size: 2rem;
   top: 250px;
-  left:730px;
+  left:780px;
 }
 
 .back-video {
@@ -116,5 +114,21 @@ p {
     left: 210px;
     top: 525px;
   }
+
+  @media (min-aspect-ratio: 16/9) {
+    .back-video {
+      width: 100%;
+      height: auto;
+    }
+  
+  }
+  
+  @media (max-aspect-ratio: 16/9) {
+    .back-video {
+      width: auto;
+      height: 100%;
+    }
+  }
+  
 
 }
