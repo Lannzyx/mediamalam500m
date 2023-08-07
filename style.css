@@ -31,7 +31,7 @@ h1{
   font-size: 150px;
   position: relative;
   top: 250px;
-  left: 385px;
+  left: 370px;
   font-family: 'plank';
   color: white;
 }
@@ -44,7 +44,7 @@ p {
 }
 
 .utama{
-  left: 630px;
+  left: 615px;
   font-size: 3rem;
   position: relative;
   top: 230px;
@@ -54,7 +54,7 @@ p {
   position: relative;
   font-size: 2rem;
   top: 250px;
-  left:750px;
+  left:730px;
 }
 
 .back-video {
