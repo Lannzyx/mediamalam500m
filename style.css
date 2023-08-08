@@ -63,33 +63,27 @@ p {
   bottom: 0;
   z-index: -1;
 }
-
-
-.all{
+.semua{
   background-color: rgba(11, 114, 167, 0.5);
   width: 100%;
   height: 100vh;
   margin: 0;
   padding: 0;
 }
-
 @media (min-aspect-ratio: 16/9) {
   .back-video {
     width: 100%;
     height: auto;
   }
-
 }
-
 @media (max-aspect-ratio: 16/9) {
   .back-video {
     width: auto;
     height: 100%;
   }
 }
-
 @media (min-width:200px) and (max-width: 690px) {
-
+  
   body {
     margin: 0;
     width: 100%;
@@ -97,7 +91,7 @@ p {
     overflow-x: hidden;
     padding: 0;
   }
-
+  
   .logo {
     height: 100px;
     width: 300px;
@@ -114,12 +108,6 @@ p {
     font-size: 17px;
     position: relative;
     left: 60px;
-    top: 405px;
   }
-  .kedua {
-    font-size: 15px;
-    position: absolute;
-    left: 210px;
-    top: 430px;
-  }
+
 }
