@@ -2,109 +2,132 @@
   font-family: 'plank';
   src: url(./font/Octuple-max-demo.ttf);
 }
+
 @font-face {
   font-family: 'boeotia';
   src: url(./font/Boeotia.ttf);
 }
+
+
 body {
   margin: 0;
   width: 100%;
   height: 100%;
   overflow-x: hidden;
   padding: 0;
+  display: flex;
 }
+
 .logo {
   height: 110px;
   position: relative;
-  left: 550px;
+  left: 38%;
   top: 20px;
 }
+
 h1{
   margin: 0;
   padding: 0;
   font-size: 150px;
   position: relative;
-  top: 200px;
-  top: 190px;
-  left: 205px;
+  top: 250px;
+  left: 400px;
   font-family: 'plank';
   color: white;
 }
+
 p {
   color: white;
   font-family: 'boeotia';
   margin:0;
   padding: 0;
 }
-.utama{
-  left: 405px;
-  font-size: 2rem;
+
+.first{
+  left: 650px;
+  font-size: 3rem;
   position: relative;
-  top: 210px;
+  top: 230px;
 }
-.kedua{
+
+.second{
   position: relative;
   font-size: 2rem;
-  top: 210px;
-  left:685px;
+  top: 250px;
+  left:780px;
 }
+
 .back-video {
   position: absolute;
   right: 0;
   bottom: 0;
   z-index: -1;
 }
-.semua{
+
+
+.all{
   background-color: rgba(11, 114, 167, 0.5);
   width: 100%;
   height: 100vh;
   margin: 0;
   padding: 0;
 }
+
 @media (min-aspect-ratio: 16/9) {
   .back-video {
     width: 100%;
     height: auto;
   }
+
 }
+
 @media (max-aspect-ratio: 16/9) {
   .back-video {
     width: auto;
     height: 100%;
   }
 }
+
+
 @media (min-width:200px) and (max-width: 690px) {
   
   body {
     margin: 0;
     width: 100%;
     height: 100%;
+    overflow: hidden;
     overflow-x: hidden;
     padding: 0;
   }
   
+
   .logo {
     height: 100px;
     width: 300px;
     position: absolute;
-    left: 110px;
+    left: 185px;
   }
+
   h1{
-    font-size: 50px;
+    font-size: 70px;
     position: absolute;
-    left: 70px;
-    top: 350px;
-  }
-  .utama {
-    font-size: 17px;
-    position: relative;
     left: 60px;
-    top: 405px;
+    top: 410px;
   }
-  .kedua {
-    font-size: 15px;
+  .first {
+    font-size: 30px;
+    position: relative;
+    left: 12px;
+    text-align: center;
+    top: 490px;
+  }
+
+  .second{
+    font-size: 20px;
     position: absolute;
     left: 210px;
-    top: 430px;
+    top: 525px;
   }
+
+
 }
