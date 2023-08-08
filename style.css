@@ -29,7 +29,7 @@ h1{
   padding: 0;
   font-size: 150px;
   position: relative;
-  top: 210px;
+  top: 200px;
   left: 220px;
   font-family: 'plank';
   color: white;
@@ -46,14 +46,14 @@ p {
   left: 405px;
   font-size: 2rem;
   position: relative;
-  top: 200px;
+  top: 210px;
 }
 
 .kedua{
   position: relative;
   font-size: 2rem;
   top: 205px;
-  left:600px;
+  left:650px;
 }
 
 .back-video {
@@ -103,7 +103,7 @@ p {
     height: 100px;
     width: 300px;
     position: absolute;
-    left: 185px;
+    left: 100px;
   }
 
   h1{
