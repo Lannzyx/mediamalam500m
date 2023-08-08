@@ -20,7 +20,7 @@ body {
 .logo {
   height: 110px;
   position: relative;
-  left: 38%;
+  left: 550px;
   top: 20px;
 }
 
@@ -29,8 +29,8 @@ h1{
   padding: 0;
   font-size: 150px;
   position: relative;
-  top: 250px;
-  left: 400px;
+  top: 210px;
+  left: 220px;
   font-family: 'plank';
   color: white;
 }
@@ -43,7 +43,7 @@ p {
 }
 
 .utama{
-  left: 650px;
+  left: 490px;
   font-size: 3rem;
   position: relative;
   top: 230px;
@@ -53,7 +53,7 @@ p {
   position: relative;
   font-size: 2rem;
   top: 250px;
-  left:780px;
+  left:600px;
 }
 
 .back-video {
