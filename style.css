@@ -43,16 +43,16 @@ p {
 }
 
 .utama{
-  left: 490px;
-  font-size: 3rem;
+  left: 405px;
+  font-size: 2rem;
   position: relative;
-  top: 230px;
+  top: 200px;
 }
 
 .kedua{
   position: relative;
   font-size: 2rem;
-  top: 250px;
+  top: 205px;
   left:600px;
 }
 
@@ -113,14 +113,14 @@ p {
     top: 350px;
   }
   .utama {
-    font-size: 20px;
+    font-size: 17px;
     position: relative;
-    left: 135px;
+    left: 60px;
     top: 405px;
   }
 
   .kedua {
-    font-size: 20px;
+    font-size: 15px;
     position: absolute;
     left: 175px;
     top: 430px;
