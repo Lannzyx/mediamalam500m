@@ -15,12 +15,13 @@ body {
   height: 100%;
   overflow-x: hidden;
   padding: 0;
+  display: flex;
 }
 
 .logo {
   height: 110px;
   position: relative;
-  left: 550px;
+  left: 38%;
   top: 20px;
 }
 
@@ -29,8 +30,8 @@ h1{
   padding: 0;
   font-size: 150px;
   position: relative;
-  top: 190px;
-  left: 205px;
+  top: 250px;
+  left: 400px;
   font-family: 'plank';
   color: white;
 }
@@ -42,18 +43,18 @@ p {
   padding: 0;
 }
 
-.utama{
-  left: 405px;
-  font-size: 2rem;
+.first{
+  left: 650px;
+  font-size: 3rem;
   position: relative;
-  top: 210px;
+  top: 230px;
 }
 
-.kedua{
+.second{
   position: relative;
   font-size: 2rem;
-  top: 210px;
-  left:685px;
+  top: 250px;
+  left:780px;
 }
 
 .back-video {
@@ -64,7 +65,7 @@ p {
 }
 
 
-.semua{
+.all{
   background-color: rgba(11, 114, 167, 0.5);
   width: 100%;
   height: 100vh;
@@ -94,6 +95,7 @@ p {
     margin: 0;
     width: 100%;
     height: 100%;
+    overflow: hidden;
     overflow-x: hidden;
     padding: 0;
   }
@@ -103,27 +105,28 @@ p {
     height: 100px;
     width: 300px;
     position: absolute;
-    left: 110px;
+    left: 185px;
   }
 
   h1{
-    font-size: 50px;
+    font-size: 70px;
     position: absolute;
-    left: 70px;
-    top: 350px;
-  }
-  .utama {
-    font-size: 17px;
-    position: relative;
     left: 60px;
-    top: 405px;
+    top: 410px;
+  }
+  .first {
+    font-size: 30px;
+    position: relative;
+    left: 12px;
+    text-align: center;
+    top: 490px;
   }
 
-  .kedua {
-    font-size: 15px;
+  .second{
+    font-size: 20px;
     position: absolute;
     left: 210px;
-    top: 430px;
+    top: 525px;
   }
 
 
