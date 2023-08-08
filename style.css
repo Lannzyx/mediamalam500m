@@ -53,7 +53,7 @@ p {
   position: relative;
   font-size: 2rem;
   top: 205px;
-  left:650px;
+  left:685px;
 }
 
 .back-video {
@@ -103,7 +103,7 @@ p {
     height: 100px;
     width: 300px;
     position: absolute;
-    left: 115px;
+    left: 110px;
   }
 
   h1{
@@ -122,7 +122,7 @@ p {
   .kedua {
     font-size: 15px;
     position: absolute;
-    left: 200px;
+    left: 210px;
     top: 430px;
   }
 
